@@ -63,7 +63,7 @@ class App extends Component<object, AppState> {
     const {loading, results, error} = this.state;
 
     if (error) {
-      return <div>Произошла ошибка.</div>;
+      return <div>An error has occurred.</div>;
     }
 
     return (
