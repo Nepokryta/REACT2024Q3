@@ -4,6 +4,7 @@ interface ErrorBoundaryState {
   hasError: boolean;
 }
 
+
 interface ErrorBoundaryProps {
   children: ReactNode;
 }
